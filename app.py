@@ -3,6 +3,10 @@ import dotenv
 import streamlit as st
 from streamlit_chat import message  # for the chat UI
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # LangChain / Chroma / OpenAI imports
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.document_loaders import DirectoryLoader
