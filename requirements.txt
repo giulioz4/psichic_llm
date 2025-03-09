@@ -10,4 +10,4 @@ streamlit-chat==0.1.1
 streamlit-chat-media==0.0.4
 unstructured==0.16.25
 unstructured-client==0.31.1
-yt-dlp=2025.2.19
+yt-dlp==2025.2.19
