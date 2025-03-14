@@ -1,0 +1,15 @@
+
+chroma-hnswlib==0.7.6
+chromadb==0.6.3
+langchain==0.0.348
+python-dotenv==1.0.0
+langchain-core==0.0.12
+openai==1.55.3
+streamlit==1.29.0
+streamlit-chat==0.1.1
+streamlit-chat-media==0.0.4
+unstructured==0.16.25
+unstructured-client==0.31.1
+yt-dlp==2025.2.19
+tiktoken==0.5.2
+pysqlite3-binary
